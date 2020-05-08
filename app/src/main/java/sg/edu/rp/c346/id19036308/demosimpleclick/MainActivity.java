@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 // Code for the action
                 etInput.getText().toString();
                 String stringResponse = etInput.getText().toString();
+                tvDisplay.setText(stringResponse);
 
 
 
